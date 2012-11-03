@@ -34,7 +34,7 @@ on smooth tarmac, so grass spot would have higher cost, because in some cases it
 a bit longer route, but on better surface. Also, some robots might want to avoid sand if there is 
 any alternative path, because it can dig in wheels getting it stuck.
 
-
+![A-star GUI](https://raw.github.com/jmiseikis/RobotNavigation/master/Images/Astar.png)
 
 ## Real-Time Randomized Path Planning (RRT)
 
@@ -48,4 +48,4 @@ and hitting dead ends. Instead, larger area around is being searched, thus alter
 quickly found. Main advantages of RRT are: uniformly distributed search - it covers all area, always 
 moves towards the goal (not necessarily every step) and the simplicity of it provides high execution speed.
 
-
+![RRT GUI](https://raw.github.com/jmiseikis/RobotNavigation/master/Images/RRT.png)
